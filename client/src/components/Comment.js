@@ -2,7 +2,18 @@ import { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { AuthContext } from "./context/AuthContext";
 import { fetchPostData } from "./utils/apiHelpers";
-import { PostCardBottomBar, PostCardBtnContainer, PostCardButtonDelete, PostCardContainer, PostCardContentContainer, PostCardHeader, PostCardUserContainer, PostCardUserImg, PostCardUserInfo, PostCardWrapper } from "./styles/PostCardStyles";
+import {
+  PostCardBottomBar,
+  PostCardBtnContainer,
+  PostCardButtonDelete,
+  PostCardContainer,
+  PostCardContentContainer,
+  PostCardHeader,
+  PostCardUserContainer,
+  PostCardUserImg,
+  PostCardUserInfo,
+  PostCardWrapper,
+} from "./styles/PostCardStyles";
 import { PostCardDesc } from "./styles/CommentStyles/CommentStyles";
 import moment from "moment";
 import DeleteCommentModal from "./DeleteCommentModel";

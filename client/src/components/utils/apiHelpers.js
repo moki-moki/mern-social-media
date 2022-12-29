@@ -1,13 +1,3 @@
-// Gets all posts
-export const getPosts = async () => {
-  try {
-    const req = await fetch("/api/posts/");
-    return await req.json();
-  } catch (error) {
-    console.log(error);
-  }
-};
-
 // Likes post
 export const likeHelper = async (id, myInit) => {
   try {

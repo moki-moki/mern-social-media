@@ -1,4 +1,4 @@
-import { Close, CloseContainer, DeleteModalContainer, DeleteModalMainContainer } from "./styles/DeleteModalStyles/DeleteModalStyles";
+import { Close, DeleteModalContainer, DeleteModalMainContainer } from "./styles/DeleteModalStyles/DeleteModalStyles";
 import { PostCardButtonDelete } from "./styles/PostCardStyles";
 import { deletePostHelper } from "./utils/apiHelpers";
 import { useHistory } from "react-router-dom";
